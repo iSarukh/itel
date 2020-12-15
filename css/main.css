@@ -1,0 +1,312 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Anton";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Anton";
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title {
+  background-color: #ec5195;
+  height: 94vh;
+}
+
+#title .row {
+  padding-top: 9rem;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title .nav-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+#title nav {
+  padding: 0 0 4.5rem;
+}
+
+#title nav .nav-item {
+  text-align: right;
+}
+
+#title nav .nav-items {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+  margin-right: 3.5rem;
+  padding: 0 1.8rem;
+}
+
+#title nav .nav-items:hover {
+  color: #7d4cff;
+  transition: all 0.5s ease-in;
+}
+
+#title .title-heading {
+  font-family: "Anton", sans-serif;
+  font-size: 6rem;
+  color: #fff;
+}
+
+#title .title-img {
+  height: 50vh;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+  top: 0;
+}
+
+#title .icon {
+  margin-right: 1.1rem;
+}
+
+#title .download-btn {
+  margin: 3rem 1.5rem 0 0;
+  font-size: 2rem;
+}
+
+#features {
+  background-color: #7d4cff;
+  text-align: center;
+  padding-top: 1rem;
+  position: relative;
+}
+
+#features .feature-img {
+  width: 20%;
+}
+
+#features .feature-img-lg {
+  width: 16.5%;
+}
+
+#features .feature-img-2 {
+  width: 8%;
+  border-radius: 100%;
+  margin: 0 0.5rem 0 0;
+}
+
+#features .feature-heading-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
+  color: #fff;
+  margin-bottom: 5rem;
+}
+
+#features .feature-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 60%;
+  color: #fff;
+  margin: 1.8rem auto;
+}
+
+#features .f-name {
+  font-size: 1.2rem;
+  color: #fff;
+  width: 10%;
+}
+
+#pricing {
+  text-align: center;
+}
+
+#pricing .container-fluid {
+  padding: 7% 15% 7%;
+}
+
+#pricing .pricing-img {
+  margin: 1rem auto;
+}
+
+#pricing .pricing-btn {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8rem;
+  background-color: #7d4cff;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+#pricing .card {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+#pricing .card-text {
+  font-size: 1.6rem;
+  color: #8f8f8f;
+}
+
+#pricing h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+#pricing h5 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#git {
+  background-color: #ec5195;
+  height: 85vh;
+  padding: 0 0 2rem 0;
+  text-align: center;
+}
+
+#git h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+#git .git-mail {
+  padding: 1rem 1.5rem;
+  width: 30%;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: rgba(46, 199, 255, 0.5);
+  border: none;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+#git .git-text-area {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  color: #000;
+  border: none;
+  padding: 2rem;
+  width: 50%;
+  border-radius: 3rem;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#git .git-btn {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  background-color: #fff;
+  padding: 1.6rem 1.7rem;
+  margin: 3rem 0 4rem 0;
+  border-radius: 1rem;
+  color: #ec5195;
+  width: 20%;
+}
+
+#git .git-btn:hover {
+  background-color: #7d4cff;
+  color: #fff;
+  transition: all 0.4s ease-in;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#footer {
+  background-color: #7d4cff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#footer .footer-link {
+  color: #fff;
+  font-size: 30px;
+}
+
+#footer .footer-link:hover {
+  color: #2ec7ff;
+  transition: all 0.4s ease-out;
+}
+
+#footer .footer-link:nth-child(2) {
+  margin: 0 4rem 0 4rem;
+}
+
+#footer p {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  #title .row {
+    padding-top: 4rem;
+  }
+  #title .title-heading {
+    font-size: 4rem;
+  }
+  #title .title-img {
+    position: static;
+    transform: rotate(0);
+    margin-top: 3rem;
+    height: 50%;
+  }
+  #features .feature-heading-2 {
+    font-size: 4rem;
+  }
+  #features .feature-text {
+    font-size: 1.2rem;
+  }
+  #features .feature-img {
+    width: 40%;
+  }
+  #features .feature-img-2 {
+    width: 20%;
+  }
+  #git {
+    height: 80%;
+  }
+  #git h1 {
+    padding-top: 3rem;
+  }
+  #git .git-mail {
+    width: 75%;
+  }
+  #git .git-text-area {
+    border-radius: 1rem;
+    width: 75%;
+    padding-bottom: 0;
+  }
+  #git .git-btn {
+    width: 75%;
+    margin-bottom: 4rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
